@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.fiap.apptest.utils.Constants;
+
 public class MainActivity extends AppCompatActivity {
 
     protected TextInputLayout tilUsername;
@@ -31,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
         // isEmpty()
         if (user.equals("caue") && password.equals("123")) {
             Intent i = new Intent(this, FormActivity.class);
+
+            // key value
+            i.putExtra(Constants.KEY_USER, user);
+
+            // object
+            // @TODO
+
             startActivity(i);
         } else {
             tilUsername.setError(" ");

@@ -4,4 +4,9 @@
     <string name="lbl_password">Password</string>
     <string name="lbl_sign_in">Sign In</string>
     <string name="lbl_user_logged">User Logged In</string>
+    <string name="lblName">Name</string>
+    <string name="lblEmail">Email</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="lblWebsite">Website</string>
+    <string name="lbl_sign_up">Sign Up</string>
 </resources>
