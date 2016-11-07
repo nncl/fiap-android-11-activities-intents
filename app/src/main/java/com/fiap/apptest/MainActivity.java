@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void doLogin(View v) {
         // reset error message
+        tilUsername.setErrorEnabled(false);
         tilPassword.setErrorEnabled(false);
 
         String user = tilUsername.getEditText().getText().toString();
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, FormActivity.class);
             startActivity(i);
         } else {
+            tilUsername.setError(" ");
             tilPassword.setError("Invalid username and/or password");
         }
     }
