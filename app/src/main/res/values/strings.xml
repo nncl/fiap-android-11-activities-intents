@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AppTest</string>
+    <string name="app_name">Activities n Intent App</string>
+    <string name="lbl_name">Name</string>
 </resources>
