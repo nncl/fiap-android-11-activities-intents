@@ -9,4 +9,6 @@
     <string name="lbl_phone_number">Phone Number</string>
     <string name="lblWebsite">Website</string>
     <string name="lbl_sign_up">Sign Up</string>
+    <string name="lbl_signed_in">Signed in</string>
+    <string name="lbl_your_data">Your Data</string>
 </resources>
