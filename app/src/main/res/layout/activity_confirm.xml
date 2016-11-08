@@ -109,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_weight="1"
-                    android:id="@+id/tvCelular"
+                    android:id="@+id/tvTelefone"
                     android:onClick="editPhone"/>
 
                 <Button

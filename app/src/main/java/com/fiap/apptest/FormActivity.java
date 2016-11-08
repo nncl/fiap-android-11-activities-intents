@@ -1,11 +1,11 @@
 package com.fiap.apptest;
 
+import android.content.Intent;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import com.fiap.apptest.model.Participant;
 import com.fiap.apptest.utils.Constants;
 
@@ -41,6 +41,9 @@ public class FormActivity extends AppCompatActivity {
         p.setPhone(tilPhone.getEditText().toString());
         p.setWebsite(tilWebsite.getEditText().toString());
 
-        
+        Intent i = new Intent(this, ConfirmActivity.class);
+        i.putExtra(Constants.KEY_PARTICIPANT, p);
+
+        startActivity(i);
     }
 }
